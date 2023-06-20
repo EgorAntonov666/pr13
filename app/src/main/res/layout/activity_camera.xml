@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="735dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/png_transparent_black_frame_illustration_viewfinder_movie_camera_camera_screen_frame_white_text_thumbnail"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
